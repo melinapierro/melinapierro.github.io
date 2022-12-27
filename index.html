@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Marina Fictícia - Designer Unicórnio</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
+	<link href="css/estilos.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+	<!-- navegacao -->
+	<nav>
+		<div class="container">
+			<a href="#bio">Bio</a>
+			<a href="#galeria">Galeria</a>
+			<a href="#contato">Contato</a>
+		</div>
+	</nav>
+	<!-- navegacao fim -->
+
+
+	<!-- cabecalho -->
+	<header>
+		<div class="container">
+			<img id="avatar" src="img/unicornio-por-eric-yi.png" alt="Desenho de cabeça de unicórnio">
+			<div id="header-info">
+				<h1>Marina Fictícia</h1>
+				<h2>Designer Unicórnio</h2>
+				<p>Designer especializada em layouts maravilhosos.</p>
+			</div>
+		</div>
+	</header>
+	<!-- cabecalho fim -->
+
+
+	<!-- bio -->
+	<section id="bio">
+		<div class="container">
+			<h2 class="subtit">Bio</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</section>
+	<!-- bio fim -->
+
+
+	<!-- galeria -->
+	<section id="galeria">
+		<div class="container">
+
+			<h2 class="subtit">Galeria</h2>
+
+
+			<!-- grid - inicio -->
+			<div class="grid-galeria">
+				<figure>
+				  <a data-lightbox="image-1" data-title="Legenda" href="img/galeria-01.jpg"><img src="img/galeria-miniatura-01.jpg" alt="Descricao da imagem" width="300"></a>
+				  <figcaption>Projeto legal #1</figcaption>
+				</figure>
+
+				<figure>
+				  <a data-lightbox="image-1" data-title="Legenda" href="img/galeria-02.jpg"><img src="img/galeria-miniatura-02.jpg" alt="Descricao da imagem" width="300"></a>
+				  <figcaption>Projeto legal #2</figcaption>
+				</figure>
+
+				<figure>
+				  <a data-lightbox="image-1" data-title="Legenda" href="img/galeria-03.jpg"><img src="img/galeria-miniatura-03.jpg" alt="Descricao da imagem" width="300"></a>
+				  <figcaption>Projeto legal #3</figcaption>
+				</figure>
+
+				<figure>
+				  <a data-lightbox="image-1" data-title="Legenda" href="img/galeria-04.jpg"><img src="img/galeria-miniatura-04.jpg" alt="Descricao da imagem" width="300"></a>
+				  <figcaption>Projeto legal #4</figcaption>
+				</figure>
+
+				<figure>
+				  <a data-lightbox="image-1" data-title="Legenda" href="img/galeria-05.jpg"><img src="img/galeria-miniatura-05.jpg" alt="Descricao da imagem" width="300"></a>
+				  <figcaption>Projeto legal #5</figcaption>
+				</figure>
+
+				<figure>
+				  <a data-lightbox="image-1" data-title="Legenda" href="img/galeria-06.jpg"><img src="img/galeria-miniatura-06.jpg" alt="Descricao da imagem" width="300"></a>
+				  <figcaption>Projeto legal #6</figcaption>
+				</figure>
+			</div>
+			<!-- grid - fim -->
+
+		</div>
+	</section>
+	<!-- galeria fim -->
+
+
+	<!-- contato -->
+	<section id="contato">
+			<h2 class="subtit">Contato</h2>
+			<form action="#">
+
+				<div class="form-grupo">
+					<label for="nome">Nome</label>
+					<input type="text" id="nome" name="nome">
+				</div>
+
+				<div class="form-grupo">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="nome@email.com" required>
+				</div>
+
+				<div class="form-grupo">
+					<label for="mensagem">Mensagem</label>
+					<textarea id="mensagem" name="mensagem"></textarea>
+				</div>
+
+				<div class="form-grupo">
+					<input class="btn" type="submit" value="Enviar">
+				</div>
+
+			</form>
+	</section>
+	<!-- contato fim -->
+
+	
+	<!-- rodape -->
+	<footer>
+		<div class="container">
+			<p>&copy; Marina Fictícia, 2022. <a href="mailto:marina.ficticia@gmail.com">marina.ficticia@gmail.com</a></p>
+		</div>
+	</footer>
+	<!-- rodape fim -->
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    
+</body>
+
+</html>
